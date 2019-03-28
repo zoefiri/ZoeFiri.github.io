@@ -1,0 +1,82 @@
+/* Startpage  Css
+   By Dylan Araps */
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+font-family: curie;
+src: url('/home/zoe/building/start/curieMedium-12.woff');
+}
+
+body {
+  background: #191726;
+  height: 100%;
+  width: 100%;
+}
+main {
+  display: block;
+  font-family:Nimbus Mono PS;
+  left: 20%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+h1 {
+  color: #FF5C57;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 400px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #FFB536;
+  opacity: .4;
+  width: 400px;
+}
+
+ul {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.5;
+  list-style: none;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  transition: .2s;
+}
+
+c1 { color: #FF5C57 }
+c2 { color: #FFB536 }
+c3 { color: #5AF78E }
+c4 { color: #9AEDFE }
+c5 { color: #57C7FF }
+
+
+a { 
+    color:default;
+    text-decoration:none;
+}
+
+.image {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  left: 920px;
+  top: -340px;
+}
