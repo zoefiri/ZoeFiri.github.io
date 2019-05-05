@@ -18,13 +18,42 @@ div.profilewindow {
     border-radius: 50%;
 }
 
-.img1 {
+.image1 {
+    width:100%;
 }
-.img2 {
+.image2 {
+    width:100%;
 }
-.img3 {
+.image3 {
+    width:100%;
 }
-.img4 {
+.image4 {
+    width:100%;
+}
+
+.imagewindow1 {
+    position:relative;
+    max-width:80%;
+    left:60px;
+    top:655px;
+}
+.imagewindow2 {
+    position:relative;
+    max-width:60%;
+    left:40px;
+    top:700px;
+}
+.imagewindow3 {
+    position:relative;
+    max-width:50%;
+    left:400px;
+    top:800px;
+}
+.imagewindow4 {
+    position:relative;
+    max-width:80%;
+    left:60px;
+    top:930px;
 }
 
 .pagebutton1{ color:#FF5C57; width:100% }
@@ -126,8 +155,7 @@ div.recentwindow{
 body {
     background: #191726;
     background-image: url("../img/Meditation.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
     background-position: center; 
 }
 
