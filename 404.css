@@ -108,7 +108,8 @@ div.recentwindow{
 
 body {
     background: #191726;
-    background-image: url("../img/Meditation.jpg");
+    background-image: url("/img/Meditation.jpg");
+    background-image: url("img/Meditation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
