@@ -6,7 +6,7 @@
 
 div.profilewindow {
     position: absolute;
-    width:450px;
+    width:510px;
     text-align: left; !important
 } .profilewindow > .windowbody { height:130px; }
 
