@@ -39,7 +39,7 @@ sed -e "s/#posts/$pages/g" ../templates/posts.html > ../pages/posts.html
 #copy out built html files
 cp html/* ../pages/
 cp "html/$filename.html" ../pages/fuck.html 
-sed -e 's/\.\.\///g' "html/$filename.html" > ../index.html #for index.html substitute .. paths
+sed -e 's/\.\.\///g' -e "s/href = '/href ='pages\//g" "html/$filename.html" > ../index.html #for index.html substitute .. paths
 
 #get git commit info and commit post
 git add -A
