@@ -16,7 +16,7 @@ sed -e "s/#posts/$pages/g" ../templates/posts.html > ../pages/posts.html
 cp html/* ../pages/
 git add -A
 cp "html/$filename.html" ../pages/fuck.html 
-cp "html/$filename.html" ../index.html 
+sed -e 's/\.\.\///g' "html/$filename.html" > ../index.html
 echo post info
 read commitmessage
 git commit -m "$commitmessage"
