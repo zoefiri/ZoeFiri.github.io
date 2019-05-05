@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+* {
+    font-size: 100%;
+    font-family: Gugi;
+ }
+
+body {
+    background: #ffffff;
+    background-image: url("img/Meditation.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+div.windowbody {
+    border: 10px solid #191726;
+    border-top: 40px solid #191726;
+    padding: 20px;
+    
+    position: absolute;
+    top: 200px;
+    bottom: 100px;
+    width: 70%;
+    min-height: fit-content;
+    margin:auto;
+
+    position:relative;
+
+    background: #2d3044;
+}
+
+.close {
+    max-width: 20px;
+    position: absolute;
+    right: 5px;
+    top: -30px;
+}
+
+.maximize {
+    max-width: 20px;
+    position: absolute;
+    right: 35px;
+    top: -30px;
+}
+
+.minimize {
+    max-width: 20px;
+    position: absolute;
+    right: 65px;
+    top: -30px;
+}
+
+
+div.windowtext {
+    position: relative;
+    width:100%;
+    right: 10;
+    color: #ffffff;
+}
+
+div.title {
+    text-align: center;
+    font-size: 200%;
+}
+
+div.windowtitle {
+    position: absolute;
+    top: -29px;
+    color: #fff;
+}
+
+object {
+    font-family: Gugi;
+    background: #fff;
+}
