@@ -113,7 +113,7 @@ div.recentwindow{
 
 div.vid{
     position:absolute;
-    top:200%;
+    top:1700px;
     right:5%;
     width:70%;
     height:50%;
@@ -121,7 +121,7 @@ div.vid{
 
 div.irlhardware{
     position:absolute;
-    top:270%;
+    top:2300px;
     width:70%;
     height:50%;
 }

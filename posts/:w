@@ -1,0 +1,13 @@
+#!/bin/bash
+for dir in orig/*
+do
+    read -r header < "$dir/header"
+    read -r content < "$dir/content"
+    read -r title < "$dir/title"
+    filename=$(basename $dir)
+    sed -e "s/#header/$header/" -e "s/#content/$content/" -e "s/#title/$title/" ../templates/fuck.html > html/$filename.html
+    pages="$pages
+    <button onclick=\"window.location.href = '$filename.html'\" class=\"pagebutton\">$header</button>"
+done
+echo $pages
+cp html/* ../pages/
