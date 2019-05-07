@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 * {
     font-size: 100%;
     font-family: Gugi;
  }
+font.code {
+    font-size: 100%;
+    font-family: "Source Code Pro";
+    background-color: #191726;
+}
 
 div.profilewindow {
     position: absolute;
