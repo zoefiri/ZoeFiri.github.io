@@ -10,6 +10,16 @@ font.code {
     background-color: #191726;
 }
 
+font.link{
+    font-style:italic;
+    font-weight:1000;
+    color:#5AF78E;
+}
+
+a{
+    text-decoration:none;
+}
+
 div.profilewindow {
     position: absolute;
     width:510px;
@@ -163,9 +173,16 @@ div.scriptwindow{
 div.tilingwindow{
     position: relative;
     width:120%;
-    top: 70px;
+    top: 150px;
     bottom: 100px;
     left: -22%;
+}
+div.clarificationswindow{
+    position: relative;
+    width:120%;
+    top: 220px;
+    bottom: 100px;
+    left: 0%;
 }
 
 div.herbdemo1{
@@ -181,6 +198,13 @@ div.herbdemo2{
     top: 70px;
     bottom: 100px;
     left: 15%;
+}
+div.herbdemo3{
+    position: relative;
+    width:110%;
+    top: 120px;
+    bottom: 100px;
+    left: 7%;
 }
 img.herbdemo{
     width:100%

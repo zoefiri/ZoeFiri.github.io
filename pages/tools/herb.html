@@ -63,6 +63,19 @@
             </div>
         </div>
 
+        <div class=herbdemo3>
+            <div class=windowbody>
+                <img src="../../img/close.png" class="close"/>
+                <img src="../../img/maximize.png" class="maximize"/>
+                <img src="../../img/minimize.png" class="minimize"/>
+                <div class="windowtitle">framedemo.png</div>
+                <div class="windowtext">
+                    <img src="img/commands.gif" class="herbdemo"/><br/><br/>
+                    An example of how herbstluftwm is controllable via shell, of course this isn't very convenient but this is just a demonstration, it can be very nice if you want to script in little features like moving the active window into the frame you just split (more on what frames are in a bit).
+                </div>
+            </div>
+        </div>
+
 
     <div class=tilingwindow>
         <div class=windowbody>
@@ -73,11 +86,17 @@
             <div class="windowtext">
                 <div class="title"><h1>herbstluftwm tiling</h1></div>
                 <div class="bodytext"><p>
-                        In terms of tiling concepts, herbstluftwm offers the power of frames. Frames are really cool and form the basis of what makes herbstluftwm tiling "manual". Herbstluftwm frames essentially all act like their own isolated little space, the current workspace may be split vertically or horizontally within the current frame (by default the current workspace will initially behave as a single large frame), once splitting windows may be moved between frames and frames may be resized, although windows cannot be resized (well they kind of can but I'll get into that later, trust me frame resizing usually works well enough that you won't be hurting from losing the ability to resize single windows, it's usually convenient enough to just resize their current frame or make a new one). Within each frame a tiling style is adherred to, by default these are toggled via <font class="code">$mod-Space</font> and there are 4, here's what they all do.<br/><br/>
+                        in terms of tiling concepts, herbstluftwm offers the power of frames. frames are really cool and form the basis of what makes herbstluftwm tiling "manual". herbstluftwm frames essentially all act like their own isolated little space, the current workspace may be split vertically or horizontally within the current frame (by default the current workspace will initially behave as a single large frame), once splitting windows may be moved between frames and frames may be resized, although windows cannot be resized (well they kind of can but i'll get into that later, trust me frame resizing usually works well enough that you won't be hurting from losing the ability to resize single windows, it's usually convenient enough to just resize their current frame or make a new one). within each frame a tiling style is adherred to, by default these are toggled via <font class="code">$mod-space</font> and there are 4, here's what they all do.<br/><br/>
                         1 + windows are tiled vertically, on top of each other<br/>
                         2 + windows are tiled horizontally, side by side<br/>
                         3 + window space is partitioned to equally distribute both horizontal and vertical space<br/>
-                        4 + windows will all stack on top of each other and may be tabbed through<br/>
+                        4 + windows will all stack on top of each other and may be tabbed through<br/><br/><br/>
+                        frames posess the following qualities,<br/><br/>
+                        1 + windows can be freely moved between them<br/>
+                        2 + they may be resized<br/>
+                        3 + they may be split horizontally or vertically into two smaller frames<br/>
+                        4 + they may be merged back into a single frame<br/>
+                        5 + they cannot be moved, although you may change their layout by simply merging them back as far as necessary and then splitting again. this has no effect upon the windows contained by the frames. <br/>
                     </p> 
                 </div>
             </div>
@@ -91,7 +110,7 @@
                 <div class="windowtitle">framedemo.png</div>
                 <div class="windowtext">
                     <img src="img/tiledemo.gif" class="herbdemo"/><br/><br/>
-                    in this gif, I am alternating between splitting frames vertically and horizontally and then opening a terminal in each frame.
+                    in this gif, i am alternating between splitting frames vertically and horizontally and then opening a terminal in each frame.
                 </div>
             </div>
         </div>
@@ -110,6 +129,21 @@
             </div>
         </div>
 
+    <div class=clarificationswindow>
+        <div class=windowbody>
+            <img src="../../img/close.png" class="close"/>
+            <img src="../../img/maximize.png" class="maximize"/>
+            <img src="../../img/minimize.png" class="minimize"/>
+            <div class="windowtitle">clarifications.txt</div>
+            <div class="windowtext">
+                <div class="title"><h1>some clarifications</h1></div>
+                <div class="bodytext"><p>
+                        <h3>gaps</h3> no, my gaps are not really that big. In the commands video I use a command called "pseudotile", the pseudotile state of a window basically makes the wm allocate it the same space it normally would, although it only will occupy the space which the window's geometry dictates.<br/>
+                        <h3>dots</h3> <a href="https://github.com/zoefiri/dots"/><font class=link>here ya' go.</font></a>
+                    </p> 
+                </div>
+            </div>
+        </div>
 
 
         <!--<div class=imagewindow1>
