@@ -179,7 +179,8 @@ div.tilingwindow{
 }
 div.clarificationswindow{
     position: relative;
-    width:120%;
+    max-width:50%;
+    min-width:70%;
     top: 220px;
     bottom: 100px;
     left: 0%;
