@@ -155,8 +155,9 @@ div.recentwindow{
 body {
     background: #191726;
     background-image: url("../img/Meditation.jpg");
-    background-size: 150%;
     background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div.windowbody {

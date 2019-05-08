@@ -214,8 +214,8 @@ img.herbdemo{
 body {
     background: #191726;
     background-image: url("../../../img/Meditation.jpg");
-    background-size: cover;
     background-position: center; 
+    background-size: cover;
     background-attachment: fixed;
 }
 

@@ -132,8 +132,9 @@ body {
     background: #171826;
     background-image: url("../img/Meditation.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div.windowbody {
