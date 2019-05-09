@@ -36,6 +36,9 @@ div.profilewindow {
 .image4 {
     width:100%;
 }
+video.vidbody{
+    width:20%;
+}
 
 .imagewindow1 {
     position:relative;
