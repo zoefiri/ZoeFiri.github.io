@@ -1,0 +1,92 @@
+.sidebar {
+   width: 450px;
+}
+
+/* sidebar header stuff */
+
+.header_antannae {
+   position: absolute;
+   width: 70px;
+   left: 12px;
+}
+
+.sidebar_header {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+   font-family: var(--header_font);
+   font-weight: var(--header_font_w);
+
+   /* background-image: url("assets/grate_tile.png"); */
+   image-rendering: crisp-edges;
+}
+
+.sidebar_main_title {
+   font-size: 4em;
+}
+
+.border_shadow {
+   text-shadow: -3px -3px 0 var(--c3),
+                 3px -3px 0 var(--c3),
+                -3px  3px 0 var(--c3),
+                 3px  3px 0 var(--c3);
+}
+
+.zoe_header {
+   font-size: 3em;
+   transform: rotate(90deg);
+   width: 1em;
+   align-self: flex-start;
+}
+
+.row_flex_simple {
+   width: fit-content;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.col_flex_simple {
+   width: fit-content;
+   display: flex;
+   flex-direction: row;
+}
+
+.header_icon {
+   height: fit-content;
+   align-self: flex-end;
+   width: 100px;
+}
+
+.moth_elin {
+   stroke: var(--c3);
+   stroke-width: 3px;
+   stroke-dasharray: 2,2;
+   stroke-linejoin: round;
+}
+
+.circ {
+   width: 50px;
+   height: 50px;
+   margin: 5px;
+
+   background-color: #000000;
+   border-radius: 50%;
+}
+
+.circ1 { background-color: var(--c1); }
+.circ2 { background-color: var(--c2); }
+.circ3 { background-color: var(--c3); }
+.circ4 { background-color: var(--c4); }
+.circ5 { background-color: var(--c5); }
+.circ6 { background-color: var(--c6); }
+
+/* main sidebar panel */
+
+.sidebar_main_panel {
+   margin-top: 5px;
+   flex-grow: 2;
+}
+

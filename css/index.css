@@ -1,0 +1,27 @@
+@import url("colors.css");
+@import url("panel.css");
+@import url("sidebar.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/githubnext/monaspace@v1.000/fonts/webfonts/MonaspaceNeon-Regular.woff');
+
+:root {
+   --header_font: "geo";
+   --header_font_w: 8;
+
+   background-image: url("/assets/bg-flip.png");
+   image-rendering: crisp-edges;
+   background-size: cover;
+}
+
+.page_root {
+   display: flex;
+   flex-direction: row;
+
+   width:100vw;
+   height:100vh;
+}
+
+.page_body {
+   margin: 15px;
+}
