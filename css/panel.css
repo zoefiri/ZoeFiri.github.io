@@ -31,7 +31,7 @@
    border-image-repeat: repeat;
    image-rendering: crisp-edges;
 
-   font-family: "Monaspace Neon";
+   font-family: "MonaNeon";
    font-weight: 1000;
    font-size: 1.5em;
 
@@ -90,7 +90,7 @@
    /* border-image: url("assets/panel.png") 8 fill; */
    /* border-image-repeat: repeat; */
 
-   font-family: "Monaspace Neon";
+   font-family: "MonaNeon";
    font-weight: 800;
    font-size: 1.3em;
 

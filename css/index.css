@@ -3,7 +3,12 @@
 @import url("sidebar.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/githubnext/monaspace@v1.000/fonts/webfonts/MonaspaceNeon-Regular.woff');
+
+@font-face {
+  font-family: 'MonaNeon';
+  src: url('/assets/monaNeonVar.ttf');
+  font-style: normal;
+}
 
 :root {
    --header_font: "geo";
