@@ -40,6 +40,6 @@ function dragEnd(header)
 function divMove(e){
    var div = dragElement;
    div.style.position = 'absolute';
-   div.style.top = (e.clientY - 20) + 'px';
-   div.style.left = (e.clientX - 20) + 'px';
+   div.style.top = (e.clientY - 35) + 'px';
+   div.style.left = (e.clientX - 35) + 'px';
 }
